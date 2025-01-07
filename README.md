@@ -41,3 +41,6 @@ lndconnect
     --readonlymacaroonpath= Path to read the read-only macaroon from
     --invoicemacaroonpath=  Path to read the invoice-only macaroon from
 ```
+
+.\lndconnect.exe --datadir="..\lncm\lnd\data" --tlscertpath="..\lncm\lnd\tls.cert" --adminmacaroonpath="..\lncm\lnd\data\chain\bitcoin\testnet\admin.macaroon"
+.\lndconnect.exe -j --datadir="..\lncm\lnd\data" --tlscertpath="..\lncm\lnd\tls.cert" --adminmacaroonpath="..\lncm\lnd\data\chain\bitcoin\testnet\admin.macaroon"
